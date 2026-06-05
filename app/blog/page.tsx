@@ -1,0 +1,109 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+import { generateMeta } from "@/lib/seo";
+
+export const metadata: Metadata = generateMeta({
+  title: "وبلاگ پایان‌نامه — راهنمای دانشجویی",
+  description:
+    "آموزش‌ها، راهنماها و نکات کاربردی برای نوشتن پایان‌نامه، تحلیل داده و موفقیت در دفاع. وبلاگ Caspian Thesis.",
+  keywords: ["آموزش پایان نامه", "راهنمای پایان نامه", "وبلاگ تحقیق دانشجویی"],
+  path: "/blog",
+});
+
+const posts = [
+  {
+    slug: "how-to-write-thesis-with-ai",
+    emoji: "🎓",
+    date: "۱۵ اردیبهشت ۱۴۰۵",
+    category: "آموزش",
+    title: "چگونه با هوش مصنوعی پایان‌نامه بنویسیم؟ راهنمای جامع ۱۴۰۵",
+    desc: "در این مقاله گام‌به‌گام یاد می‌گیری چطور از ابزارهای AI برای نوشتن فصل‌های مختلف پایان‌نامه استفاده کنی.",
+  },
+  {
+    slug: "spss-data-analysis-guide",
+    emoji: "📊",
+    date: "۵ اردیبهشت ۱۴۰۵",
+    category: "آمار",
+    title: "تحلیل آماری پایان‌نامه با SPSS: از صفر تا صد",
+    desc: "آموزش کامل تحلیل داده برای پایان‌نامه — از وارد کردن داده تا تفسیر نتایج و نوشتن فصل چهارم.",
+  },
+  {
+    slug: "best-thesis-topics-1404",
+    emoji: "🔥",
+    date: "۲۰ فروردین ۱۴۰۵",
+    category: "موضوع پایان‌نامه",
+    title: "بهترین موضوعات پایان‌نامه ارشد ۱۴۰۵ — ۵۰ ایده جدید",
+    desc: "فهرست جامع موضوعات پیشنهادی برای پایان‌نامه کارشناسی ارشد در رشته‌های مختلف.",
+  },
+  {
+    slug: "proposal-writing-tips",
+    emoji: "📝",
+    date: "۱۰ فروردین ۱۴۰۵",
+    category: "پروپوزال",
+    title: "۱۰ نکته طلایی برای نوشتن پروپوزال موفق",
+    desc: "با رعایت این ۱۰ نکته، پروپوزال‌ات رو در اولین جلسه تصویب کن.",
+  },
+  {
+    slug: "plagiarism-reduction-guide",
+    emoji: "🛡️",
+    date: "۲ فروردین ۱۴۰۵",
+    category: "ویرایش",
+    title: "چطور درصد مشابهت پایان‌نامه را کاهش دهیم؟",
+    desc: "روش‌های عملی و اثربخش برای کاهش درصد سرقت ادبی بدون تغییر محتوا.",
+  },
+  {
+    slug: "thesis-defense-preparation",
+    emoji: "🎤",
+    date: "۱۵ اسفند ۱۴۰۴",
+    category: "دفاع",
+    title: "راهنمای جامع آمادگی برای جلسه دفاع پایان‌نامه",
+    desc: "چطور برای جلسه دفاع آماده بشی، چه سوال‌هایی مطرح می‌شه و چطور پاسخ بدی.",
+  },
+];
+
+export default function BlogPage() {
+  return (
+    <>
+      <div className="page-header">
+        <span className="section-label">وبلاگ</span>
+        <h1>
+          راهنمای جامع <span className="gradient-text">پایان‌نامه</span>
+        </h1>
+        <p>آموزش‌ها، نکات و راهکارهای کاربردی برای موفقیت در تحصیل</p>
+      </div>
+
+      <div className="blog-list-grid">
+        {posts.map((post) => (
+          <Link
+            key={post.slug}
+            href={`/blog/${post.slug}`}
+            className="card blog-card"
+            id={`blog-${post.slug}`}
+          >
+            <div className="blog-card-image">{post.emoji}</div>
+            <div className="blog-card-content">
+              <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", marginBottom: "0.5rem" }}>
+                <span
+                  style={{
+                    fontSize: "0.75rem",
+                    background: "rgba(124,58,237,0.12)",
+                    border: "1px solid rgba(124,58,237,0.2)",
+                    borderRadius: "999px",
+                    padding: "0.2rem 0.7rem",
+                    color: "var(--color-primary-light)",
+                  }}
+                >
+                  {post.category}
+                </span>
+                <span className="blog-card-date">{post.date}</span>
+              </div>
+              <h3>{post.title}</h3>
+              <p>{post.desc}</p>
+              <span className="read-more">ادامه مطلب ←</span>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </>
+  );
+}
