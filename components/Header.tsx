@@ -27,7 +27,6 @@ export default function Header() {
         {/* لوگو — سمت راست */}
         <Link href="/" className="header-logo" id="header-logo">
           <img src="/logo.jpg" alt="Caspian Thesis" className="header-logo-img" />
-          <span className="logo-text">Caspian Thesis</span>
         </Link>
 
         {/* منوی ناوبری — وسط */}

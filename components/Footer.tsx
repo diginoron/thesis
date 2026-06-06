@@ -7,7 +7,6 @@ export default function Footer() {
         <div className="footer-brand">
           <Link href="/" className="header-logo" style={{ fontSize: "1.4rem" }} id="footer-logo">
             <img src="/logo.jpg" alt="Caspian Thesis" className="header-logo-img" />
-            <span className="logo-text">Caspian Thesis</span>
           </Link>
           <p>
             دستیار هوش مصنوعی برای انجام پایان‌نامه. با استفاده از
