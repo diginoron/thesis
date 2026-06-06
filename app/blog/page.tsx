@@ -12,6 +12,14 @@ export const metadata: Metadata = generateMeta({
 
 const posts = [
   {
+    slug: "proposal-problem-statement-with-ai",
+    emoji: "🤖",
+    date: "۱۶ خرداد ۱۴۰۵",
+    category: "پروپوزال",
+    title: "نگارش بیان مسئله پروپوزال با هوش مصنوعی: راهنمای کاربردی و گام‌به‌گام",
+    desc: "چگونه با کمک ابزارهای هوش مصنوعی یک بیان مسئله قوی، علمی و بدون نقص برای پروپوزال خود بنویسیم؟ آموزش گام‌به‌گام همراه با پرامپت‌های آماده.",
+  },
+  {
     slug: "how-to-write-thesis-with-ai",
     emoji: "🎓",
     date: "۱۵ اردیبهشت ۱۴۰۵",
