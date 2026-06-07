@@ -12,6 +12,14 @@ export const metadata: Metadata = generateMeta({
 
 const posts = [
   {
+    slug: "determining-sample-size-with-ai",
+    emoji: "📊",
+    date: "۱۷ خرداد ۱۴۰۵",
+    category: "تحلیل آماری",
+    title: "تعیین حجم نمونه با هوش مصنوعی: راهنمای علمی، کاربردی و سئو",
+    desc: "چگونه با کمک ابزارهای هوش مصنوعی و فرمول‌های آماری حجم نمونه بهینه برای پایان‌نامه خود را محاسبه کنیم؟ مقایسه کوکران، مورگان و جی‌پاور.",
+  },
+  {
     slug: "proposal-writing-with-ai",
     emoji: "📐",
     date: "۱۷ خرداد ۱۴۰۵",
