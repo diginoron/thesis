@@ -12,6 +12,14 @@ export const metadata: Metadata = generateMeta({
 
 const posts = [
   {
+    slug: "phd-thesis-writing-with-ai",
+    emoji: "🔬",
+    date: "۱۷ خرداد ۱۴۰۵",
+    category: "رساله دکتری",
+    title: "انجام پایان نامه دکتری با هوش مصنوعی: راهنمای جامع و فنی رساله نویسی",
+    desc: "چگونه از ابزارهای پیشرفته هوش مصنوعی برای انجام رساله دکتری، نوشتن پروپوزال، تحلیل داده‌های آماری و استخراج مقاله علمی بدون سرقت ادبی استفاده کنیم؟",
+  },
+  {
     slug: "proposal-problem-statement-with-ai",
     emoji: "🤖",
     date: "۱۶ خرداد ۱۴۰۵",
