@@ -12,6 +12,14 @@ export const metadata: Metadata = generateMeta({
 
 const posts = [
   {
+    slug: "proposal-writing-with-ai",
+    emoji: "📐",
+    date: "۱۷ خرداد ۱۴۰۵",
+    category: "پروپوزال",
+    title: "انجام پروپوزال با هوش مصنوعی: راهنمای جامع، کاربردی و فنی سئو",
+    desc: "چگونه از ابزارهای هوش مصنوعی برای انجام پروپوزال علمی کارشناسی ارشد و دکتری بر اساس متدولوژی استاندارد و بدون رفرنس‌های جعلی استفاده کنیم؟",
+  },
+  {
     slug: "phd-thesis-writing-with-ai",
     emoji: "🔬",
     date: "۱۷ خرداد ۱۴۰۵",
