@@ -238,21 +238,34 @@ export default function BlogPostPage() {
         <p>
           نگارش بیان مسئله پروپوزال، دیگر یک کار طاقت‌فرسا و زمان‌بر نیست. با تلفیق دانش موضوعی خودتان و قدرت ساختاردهی و نگارش هوش مصنوعی، می‌توانید سندی فراتر از حد انتظار اساتید خود خلق کنید. پیشنهاد می‌کنیم همین امروز ایده اولیه پژوهش خود را در دست بگیرید، ساختار قیفی ۵ مرحله‌ای را پیاده‌سازی کنید و با استفاده از پرامپت‌های معرفی‌شده در این مقاله، اولین پیش‌نویس بیان مسئله خود را بنویسید.
         </p>
+        <p>
+          اگر برای نگارش سایر بخش‌های پروپوزال خود نیز به راهنمایی نیاز دارید یا می‌خواهید کل فرآیند را به صورت حرفه‌ای پیش ببرید، پیشنهاد می‌کنیم از خدمات تخصصی <Link href="/services/proposal-writing">نگارش پروپوزال با هوش مصنوعی</Link> در پلتفرم ما دیدن کنید تا با تمام ابزارهای موجود آشنا شوید.
+        </p>
 
         <div style={{ marginTop: "3rem", textAlign: "center" }}>
           <p style={{ fontWeight: "bold", fontSize: "1.1rem", marginBottom: "1rem" }}>
             آیا آماده‌اید پروپوزال خود را در سریع‌ترین زمان و با بالاترین کیفیت بنویسید؟
           </p>
-          <a
-            href="https://thesis.diginoron.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary btn-lg"
-            id="blog-post-cta"
-            style={{ padding: "0.8rem 2rem", fontSize: "1.1rem" }}
-          >
-            شروع نگارش پروپوزال با Caspian Thesis ←
-          </a>
+          <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+            <a
+              href="https://thesis.diginoron.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-lg"
+              id="blog-post-cta"
+              style={{ padding: "0.8rem 2rem", fontSize: "1.1rem" }}
+            >
+              شروع نگارش پروپوزال با Caspian Thesis ←
+            </a>
+            <Link
+              href="/services/proposal-writing"
+              className="btn btn-outline btn-lg"
+              id="blog-post-services-link"
+              style={{ padding: "0.8rem 2rem", fontSize: "1.1rem" }}
+            >
+              جزئیات خدمات نگارش پروپوزال
+            </Link>
+          </div>
         </div>
       </div>
     </>

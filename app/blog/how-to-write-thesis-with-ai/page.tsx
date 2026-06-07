@@ -83,6 +83,9 @@ export default function BlogPostPage() {
         <p>
           پروپوزال سند اصلی تحقیق شماست. بخش‌های اصلی پروپوزال عبارتند از:
         </p>
+        <p>
+          برای نگارش حرفه‌ای و اصولی این بخش، می‌توانید از ابزار <Link href="/services/proposal-writing">نگارش پروپوزال با هوش مصنوعی</Link> استفاده کنید.
+        </p>
         <ul>
           <li>بیان مسئله و ضرورت تحقیق</li>
           <li>اهداف تحقیق (اصلی و فرعی)</li>
@@ -93,7 +96,7 @@ export default function BlogPostPage() {
 
         <h2>۳. نوشتن فصل اول: کلیات تحقیق</h2>
         <p>
-          فصل اول پایه و اساس پایان‌نامه شماست. با Caspian Thesis، این فصل را
+          فصل اول پایه و اساس پایان‌نامه شماست. با ابزار تخصصی <Link href="/services/thesis-writing">نوشتن پایان‌نامه با هوش مصنوعی</Link>، این فصل را
           در کمتر از یک ساعت می‌نویسی. سیستم AI ما:
         </p>
         <ul>
@@ -130,17 +133,29 @@ export default function BlogPostPage() {
           Thesis، می‌توانی کیفیت پایان‌نامه‌ات را بالا ببری و زمان نوشتن را
           به شدت کاهش دهی.
         </p>
+        <p>
+          اگر مایلید در این مسیر از کمک متخصصین و ابزارهای پیشرفته‌تر ما بهره‌مند شوید، توصیه می‌کنیم بخش <Link href="/services/thesis-writing">نوشتن پایان‌نامه با هوش مصنوعی</Link> و سایر <Link href="/services">خدمات علمی</Link> ما را مشاهده فرمایید.
+        </p>
 
         <div style={{ marginTop: "3rem", textAlign: "center" }}>
-          <a
-            href="https://thesis.diginoron.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary btn-lg"
-            id="blog-post-cta"
-          >
-            همین الان امتحان کن ←
-          </a>
+          <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+            <a
+              href="https://thesis.diginoron.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-lg"
+              id="blog-post-cta"
+            >
+              همین الان امتحان کن ←
+            </a>
+            <Link
+              href="/services"
+              className="btn btn-outline btn-lg"
+              id="blog-post-services-link"
+            >
+              مشاهده تمامی خدمات
+            </Link>
+          </div>
         </div>
       </div>
     </>
