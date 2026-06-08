@@ -1049,7 +1049,58 @@ p {
 }
 
 /* =====================
-   18. Contact Form
+   18. Contact Info Boxes
+   ===================== */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.8rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-icon-wrapper {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.contact-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  direction: ltr;
+  text-align: right;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.02em;
+  word-break: break-all;
+}
+
+.contact-hours {
+  background: linear-gradient(135deg, #f5f3ff, #eff6ff);
+  border: 1px solid rgba(124, 58, 237, 0.15);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* =====================
+   19. Contact Form
    ===================== */
 .contact-form {
   display: flex;
@@ -1331,6 +1382,18 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .contact-hours {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
   .section {
     padding: var(--section-padding-sm);
   }
@@ -1357,5 +1420,21 @@ p {
 
   .header {
     padding: 0.8rem 1rem;
+  }
+
+  .contact-card {
+    padding: 1.2rem;
+    gap: 0.8rem;
+  }
+
+  .contact-icon-wrapper {
+    width: 46px;
+    height: 46px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+  }
+
+  .contact-value {
+    font-size: 1rem;
   }
 }

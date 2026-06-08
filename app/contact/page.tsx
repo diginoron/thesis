@@ -75,14 +75,7 @@ export default function ContactPage() {
 
       <div className="page-content" style={{ maxWidth: "860px" }}>
         {/* کارت‌های تماس */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(2, 1fr)",
-            gap: "1.5rem",
-            marginBottom: "3rem",
-          }}
-        >
+        <div className="contact-grid">
           {contactItems.map((item) => (
             <a
               key={item.id}
@@ -90,35 +83,22 @@ export default function ContactPage() {
               href={item.href}
               target={item.href.startsWith("http") ? "_blank" : undefined}
               rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="card"
+              className="card contact-card"
               style={{
-                display: "flex",
-                alignItems: "flex-start",
-                gap: "1.2rem",
-                padding: "1.8rem",
-                textDecoration: "none",
                 background: item.colorBg,
                 borderColor: item.colorBorder,
-                transition: "all 0.3s ease",
               }}
             >
               <div
+                className="contact-icon-wrapper"
                 style={{
-                  width: "54px",
-                  height: "54px",
-                  borderRadius: "14px",
-                  background: `${item.colorBg}`,
+                  background: item.colorBg,
                   border: `1.5px solid ${item.colorBorder}`,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: "1.6rem",
-                  flexShrink: 0,
                 }}
               >
                 {item.icon}
               </div>
-              <div style={{ flex: 1 }}>
+              <div style={{ flex: 1, minWidth: 0 }}>
                 <div
                   style={{
                     fontSize: "0.82rem",
@@ -130,14 +110,9 @@ export default function ContactPage() {
                   {item.title}
                 </div>
                 <div
+                  className="contact-value"
                   style={{
-                    fontSize: "1.1rem",
-                    fontWeight: 700,
                     color: item.color,
-                    direction: "ltr",
-                    textAlign: "right",
-                    marginBottom: "0.4rem",
-                    letterSpacing: "0.02em",
                   }}
                 >
                   {item.displayValue}
@@ -156,18 +131,7 @@ export default function ContactPage() {
         </div>
 
         {/* بنر ساعت پاسخگویی */}
-        <div
-          style={{
-            background: "linear-gradient(135deg, #f5f3ff, #eff6ff)",
-            border: "1px solid rgba(124, 58, 237, 0.15)",
-            borderRadius: "var(--radius-lg)",
-            padding: "2rem",
-            display: "flex",
-            alignItems: "center",
-            gap: "1.5rem",
-            flexWrap: "wrap",
-          }}
-        >
+        <div className="contact-hours">
           <div style={{ fontSize: "2.5rem" }}>⏰</div>
           <div>
             <h3 style={{ fontSize: "1.1rem", marginBottom: "0.4rem" }}>
