@@ -12,6 +12,14 @@ export const metadata: Metadata = generateMeta({
 
 const posts = [
   {
+    slug: "literature-review-with-ai",
+    emoji: "📚",
+    date: "۱۸ خرداد ۱۴۰۵",
+    category: "پیشینه تحقیق",
+    title: "پیشینه تحقیق داخلی و خارجی پایان نامه با هوش مصنوعی: راهنمای جامع",
+    desc: "چگونه با استفاده از ابزارهای هوش مصنوعی تخصصی، پیشینه پژوهش داخلی و خارجی پایان‌نامه خود را از منابع واقعی و معتبر علمی استخراج و تدوین کنیم؟",
+  },
+  {
     slug: "determining-sample-size-with-ai",
     emoji: "📊",
     date: "۱۷ خرداد ۱۴۰۵",
