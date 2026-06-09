@@ -12,6 +12,14 @@ export const metadata: Metadata = generateMeta({
 
 const posts = [
   {
+    slug: "proposal-novelty-with-ai",
+    emoji: "📐",
+    date: "۱۹ خرداد ۱۴۰۵",
+    category: "پروپوزال",
+    title: "نگارش جنبه جدید و نوآوری تحقیق و پروپوزال با هوش مصنوعی: راهنمای جامع",
+    desc: "چگونه از ابزارهای هوشمند هوش مصنوعی برای کشف شکاف‌های پژوهشی و نگارش جنبه جدید و نوآوری تحقیق و پروپوزال با رفرنس‌های واقعی استفاده کنیم؟",
+  },
+  {
     slug: "literature-review-with-ai",
     emoji: "📚",
     date: "۱۸ خرداد ۱۴۰۵",
