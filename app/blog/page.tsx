@@ -12,6 +12,14 @@ export const metadata: Metadata = generateMeta({
 
 const posts = [
   {
+    slug: "thesis-objectives-questions-hypotheses-with-ai",
+    emoji: "🎯",
+    date: "۲۲ خرداد ۱۴۰۵",
+    category: "پروپوزال",
+    title: "نگارش اهداف، سوالات و فرضیات پایان نامه با هوش مصنوعی: راهنمای علمی",
+    desc: "چگونه با کمک ابزارهای هوشمند هوش مصنوعی بین اهداف، سوالات و فرضیات پایان‌نامه خود ارتباط منطقی برقرار کرده و پروپوزالی تصویب‌شدنی بنویسیم؟",
+  },
+  {
     slug: "proposal-novelty-with-ai",
     emoji: "📐",
     date: "۱۹ خرداد ۱۴۰۵",
