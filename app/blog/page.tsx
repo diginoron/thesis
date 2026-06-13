@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { generateMeta } from "@/lib/seo";
 import BlogList from "@/components/BlogList";
+import Pagination from "@/components/Pagination";
 
 export const metadata: Metadata = generateMeta({
   title: "وبلاگ پایان‌نامه — راهنمای دانشجویی",
@@ -10,7 +11,7 @@ export const metadata: Metadata = generateMeta({
   path: "/blog",
 });
 
-const posts = [
+const allPosts = [
   {
     slug: "thesis-gantt-chart-with-ai",
     emoji: "📊",
@@ -85,7 +86,28 @@ const posts = [
   },
 ];
 
-export default function BlogPage() {
+const ITEMS_PER_PAGE = 6;
+
+export default async function BlogPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}) {
+  const resolvedParams = await searchParams;
+  const pageParam = resolvedParams.page;
+  
+  let currentPage = 1;
+  if (typeof pageParam === "string") {
+    const parsedPage = parseInt(pageParam, 10);
+    if (!isNaN(parsedPage) && parsedPage > 0) {
+      currentPage = parsedPage;
+    }
+  }
+
+  const totalPages = Math.ceil(allPosts.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const currentPosts = allPosts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
   return (
     <>
       <div className="page-header">
@@ -96,7 +118,8 @@ export default function BlogPage() {
         <p>آموزش‌ها، نکات و راهکارهای کاربردی برای موفقیت در تحصیل</p>
       </div>
 
-      <BlogList posts={posts} />
+      <BlogList posts={currentPosts} />
+      <Pagination totalPages={totalPages} currentPage={currentPage} />
     </>
   );
 }
