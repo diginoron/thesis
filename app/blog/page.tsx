@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "thesis-chapter-two-theoretical-framework-ai",
+    emoji: "🤖",
+    date: "۲۵ خرداد ۱۴۰۵",
+    category: "مبانی نظری",
+    title: "مبانی نظری و فصل دوم پایان نامه با هوش مصنوعی",
+    desc: "راهنمای گام‌به‌گام نوشتن مبانی نظری و فصل دوم پایان نامه با هوش مصنوعی. آموزش کاربردی نگارش علمی بدون رفرنس جعلی با دستیارهای هوشمند.",
+  },
+  {
     slug: "thesis-gantt-chart-with-ai",
     emoji: "📊",
     date: "۲۳ خرداد ۱۴۰۵",
