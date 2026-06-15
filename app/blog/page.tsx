@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "conceptual-definition-of-variables-with-ai",
+    emoji: "🔬",
+    date: "۲۵ خرداد ۱۴۰۵",
+    category: "متدولوژی پژوهش",
+    title: "تعریف مفهومی متغیرهای تحقیق با هوش مصنوعی",
+    desc: "چگونه با هوش مصنوعی متغیرهای تحقیق را به صورت مفهومی و عملیاتی تعریف کنیم؟ آموزش گام‌به‌گام و مقایسه بهترین ابزارها.",
+  },
+  {
     slug: "thesis-chapter-two-theoretical-framework-ai",
     emoji: "🤖",
     date: "۲۵ خرداد ۱۴۰۵",
