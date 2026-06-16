@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "operational-definition-of-variables-with-ai",
+    emoji: "🔍",
+    date: "۲۶ خرداد ۱۴۰۵",
+    category: "متدولوژی پژوهش",
+    title: "تعریف عملیاتی متغیرها با هوش مصنوعی در پایان نامه",
+    desc: "یاد بگیرید چطور تعریف عملیاتی متغیرها در پایان نامه با استفاده از هوش مصنوعی را به صورت دقیق و علمی بنویسید. راهنمای گام به گام و کاربردی.",
+  },
+  {
     slug: "conceptual-definition-of-variables-with-ai",
     emoji: "🔬",
     date: "۲۵ خرداد ۱۴۰۵",
