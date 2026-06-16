@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "best-ai-for-thesis-writing",
+    emoji: "🏆",
+    date: "۲۶ خرداد ۱۴۰۵",
+    category: "ابزارهای پژوهشی",
+    title: "بهترین هوش مصنوعی برای انجام پایان نامه",
+    desc: "با بهترین هوش مصنوعی برای انجام پایان نامه آشنا شوید. مقایسه تخصصی ابزارها و راهنمای استفاده از کاسپین تز برای نگارش سریع و علمی پایان نامه.",
+  },
+  {
     slug: "operational-definition-of-variables-with-ai",
     emoji: "🔍",
     date: "۲۶ خرداد ۱۴۰۵",
