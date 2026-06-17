@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "thesis-topic-selection-and-base-article-ai",
+    emoji: "💡",
+    date: "۲۷ خرداد ۱۴۰۵",
+    category: "انتخاب موضوع",
+    title: "انتخاب موضوع پایان نامه و مقاله بیس با هوش مصنوعی",
+    desc: "راهنمای عملی انتخاب موضوع پایان نامه و مقاله بیس با هوش مصنوعی. بررسی ابزارها و تکنیک‌های تخصصی یافتن جدیدترین موضوعات تحقیقاتی.",
+  },
+  {
     slug: "best-ai-for-thesis-writing",
     emoji: "🏆",
     date: "۲۶ خرداد ۱۴۰۵",
