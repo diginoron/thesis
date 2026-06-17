@@ -106,14 +106,22 @@ export default function ThesisTopicAiPage() {
 
       {/* Content */}
       <div className="page-content" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9" }}>
-        <div className="cta-box highlight-box">
-          <h3>🚀 زمان را از دست ندهید!</h3>
-          <p>
+        <div style={{ margin: "2.5rem 0", textAlign: "center", background: "rgba(124, 58, 237, 0.05)", padding: "2rem", borderRadius: "12px", border: "1px solid rgba(124, 58, 237, 0.2)" }}>
+          <h3 style={{ marginTop: 0 }}>🚀 زمان را از دست ندهید!</h3>
+          <p style={{ marginBottom: "1.5rem" }}>
             همین حالا اپلیکیشن تخصصی ما را نصب کنید و تنها با چند کلیک، موضوعات بکر و
             جدید برای رساله یا پایان‌نامه خود بیابید. جستجوی آکادمیک هرگز این‌قدر
             ساده نبوده است.
           </p>
-          <button className="btn-primary">نصب اپلیکیشن کاسپین تز</button>
+          <a
+            href="https://thesis.diginoron.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary btn-lg"
+            style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", display: "inline-block" }}
+          >
+            نصب اپلیکیشن کاسپین تز ←
+          </a>
         </div>
 
         <h2>انتخاب موضوع پایان نامه و مقاله بیس با هوش مصنوعی چیست؟</h2>
@@ -207,14 +215,24 @@ export default function ThesisTopicAiPage() {
           </li>
         </ol>
 
-        <div className="cta-box highlight-box secondary">
-          <h3>💡 در پیدا کردن مقاله بیس سردرگم شده‌اید؟</h3>
-          <p>
+        <div style={{ margin: "2.5rem 0", textAlign: "center", background: "rgba(124, 58, 237, 0.05)", padding: "2rem", borderRadius: "12px", border: "1px solid rgba(124, 58, 237, 0.2)" }}>
+          <h3 style={{ marginTop: 0 }}>💡 در پیدا کردن مقاله بیس سردرگم شده‌اید؟</h3>
+          <p style={{ marginBottom: "1.5rem" }}>
             با نصب اپلیکیشن کاسپین تز، قدرتمندترین موتور جستجوی آکادمیک را در گوشی 
             یا لپ‌تاپ خود داشته باشید. همین الان برنامه را دانلود کنید و در کمتر از چند 
             ساعت مقاله بیس ایده‌آل خود را بیابید.
           </p>
-          <button className="btn-secondary">دانلود اپلیکیشن</button>
+          <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+            <a
+              href="https://thesis.diginoron.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary btn-lg"
+              style={{ padding: "0.8rem 2.2rem", fontSize: "1.1rem" }}
+            >
+              دانلود و نصب اپلیکیشن ←
+            </a>
+          </div>
         </div>
 
         <h2>بهترین ابزارهای هوش مصنوعی برای انتخاب موضوع پایان نامه کدوما هستن؟</h2>
@@ -236,39 +254,39 @@ export default function ThesisTopicAiPage() {
 
         <h3>جدول مقایسه ابزارهای برتر</h3>
         <div className="table-responsive">
-          <table>
+          <table style={{ width: "100%", borderCollapse: "collapse", marginTop: "1.5rem", marginBottom: "1.5rem" }}>
             <thead>
-              <tr>
-                <th>نام ابزار</th>
-                <th>کاربرد اصلی در فاز ابتدایی تحقیق</th>
-                <th>دقت در یافتن مقاله بیس</th>
-                <th>وضعیت دسترسی</th>
+              <tr style={{ background: "rgba(124, 58, 237, 0.2)", borderBottom: "2px solid var(--color-primary)" }}>
+                <th style={{ padding: "0.75rem", textAlign: "right" }}>نام ابزار</th>
+                <th style={{ padding: "0.75rem", textAlign: "right" }}>کاربرد اصلی در فاز ابتدایی تحقیق</th>
+                <th style={{ padding: "0.75rem", textAlign: "right" }}>دقت در یافتن مقاله بیس</th>
+                <th style={{ padding: "0.75rem", textAlign: "right" }}>وضعیت دسترسی</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td><strong>Elicit</strong></td>
-                <td>یافتن مقالات مشابه، استخراج متغیرها و چکیده‌سازی</td>
-                <td>بسیار بالا</td>
-                <td>نسخه پایه رایگان</td>
+              <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
+                <td style={{ padding: "0.75rem" }}><strong>Elicit</strong></td>
+                <td style={{ padding: "0.75rem" }}>یافتن مقالات مشابه، استخراج متغیرها و چکیده‌سازی</td>
+                <td style={{ padding: "0.75rem", color: "#4ade80" }}>بسیار بالا</td>
+                <td style={{ padding: "0.75rem" }}>نسخه پایه رایگان</td>
               </tr>
-              <tr>
-                <td><strong>Consensus</strong></td>
-                <td>پاسخ به سوالات پژوهشی با استناد به متون علمی</td>
-                <td>بالا</td>
-                <td>نسخه پایه رایگان</td>
+              <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
+                <td style={{ padding: "0.75rem" }}><strong>Consensus</strong></td>
+                <td style={{ padding: "0.75rem" }}>پاسخ به سوالات پژوهشی با استناد به متون علمی</td>
+                <td style={{ padding: "0.75rem", color: "#4ade80" }}>بالا</td>
+                <td style={{ padding: "0.75rem" }}>نسخه پایه رایگان</td>
               </tr>
-              <tr>
-                <td><strong>SciSpace</strong></td>
-                <td>درک مقالات بیس پیچیده، استخراج داده‌ها و فرمول‌ها</td>
-                <td>بسیار بالا</td>
-                <td>نسخه پایه رایگان</td>
+              <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
+                <td style={{ padding: "0.75rem" }}><strong>SciSpace</strong></td>
+                <td style={{ padding: "0.75rem" }}>درک مقالات بیس پیچیده، استخراج داده‌ها و فرمول‌ها</td>
+                <td style={{ padding: "0.75rem", color: "#4ade80" }}>بسیار بالا</td>
+                <td style={{ padding: "0.75rem" }}>نسخه پایه رایگان</td>
               </tr>
-              <tr>
-                <td><strong>ChatGPT Plus</strong></td>
-                <td>ترکیب ایده‌ها، طوفان فکری و نگارش متن اولیه</td>
-                <td>متوسط (نیاز به پلاگین دارد)</td>
-                <td>پولی</td>
+              <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
+                <td style={{ padding: "0.75rem" }}><strong>ChatGPT Plus</strong></td>
+                <td style={{ padding: "0.75rem" }}>ترکیب ایده‌ها، طوفان فکری و نگارش متن اولیه</td>
+                <td style={{ padding: "0.75rem", color: "#f87171" }}>متوسط (نیاز به پلاگین دارد)</td>
+                <td style={{ padding: "0.75rem" }}>پولی</td>
               </tr>
             </tbody>
           </table>
@@ -291,14 +309,22 @@ export default function ThesisTopicAiPage() {
 
         <hr className="divider" />
 
-        <div className="cta-box highlight-box">
-          <h3>🎯 آماده شروع یک تحقیق حرفه‌ای هستید؟</h3>
-          <p>
+        <div style={{ marginTop: "3.5rem", textAlign: "center", borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: "2.5rem", paddingBottom: "2rem" }}>
+          <h3 style={{ marginTop: 0 }}>🎯 آماده شروع یک تحقیق حرفه‌ای هستید؟</h3>
+          <p style={{ marginBottom: "1.5rem" }}>
             فرصت را از دست ندهید! هم‌اکنون اپلیکیشن ما را دانلود و نصب کنید تا به
             جامعه بزرگ پژوهشگرانی بپیوندید که مقالات بیس و موضوعات تحقیقاتی خود را
             با بالاترین کیفیت، بدون استرس و در کمترین زمان نهایی می‌کنند.
           </p>
-          <button className="btn-primary">شروع کار با اپلیکیشن</button>
+          <a
+            href="https://thesis.diginoron.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary btn-lg"
+            style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", display: "inline-block" }}
+          >
+            شروع کار با اپلیکیشن ←
+          </a>
         </div>
 
         <div className="author-box">
