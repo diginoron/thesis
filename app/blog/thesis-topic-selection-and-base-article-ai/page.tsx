@@ -81,16 +81,31 @@ export default function ThesisTopicAiPage() {
 
   return (
     <>
-      <div className="page-header">
-        <span className="section-label">وبلاگ</span>
+      {/* Breadcrumb */}
+      <div className="breadcrumb" style={{ paddingTop: "6rem" }}>
+        <Link href="/">خانه</Link>
+        <span className="breadcrumb-separator">←</span>
+        <Link href="/blog">وبلاگ</Link>
+        <span className="breadcrumb-separator">←</span>
+        <span>انتخاب موضوع با هوش مصنوعی</span>
+      </div>
+
+      {/* Page Header */}
+      <div className="page-header" style={{ background: "none", paddingTop: "2rem" }}>
+        <span className="section-label">💡 انتخاب موضوع</span>
         <h1>
           انتخاب موضوع پایان نامه و مقاله بیس با{" "}
           <span className="gradient-text">هوش مصنوعی</span>: راهنمای عملی
         </h1>
-        <p>تکنیک‌ها و ابزارهای یافتن جدیدترین موضوعات تحقیقاتی</p>
+        <p style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+          <span>📅 ۲۷ خرداد ۱۴۰۵</span>
+          <span>⏱️ ۱۵ دقیقه مطالعه</span>
+          <span>✍️ دپارتمان پژوهش Caspian Thesis</span>
+        </p>
       </div>
 
-      <article className="blog-post content-container">
+      {/* Content */}
+      <div className="page-content" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9" }}>
         <div className="cta-box highlight-box">
           <h3>🚀 زمان را از دست ندهید!</h3>
           <p>
@@ -296,7 +311,7 @@ export default function ThesisTopicAiPage() {
             و راهکارهای کاملاً عملی و اثبات‌شده ارائه دهیم.
           </p>
         </div>
-      </article>
+      </div>
 
       <Script
         id="schema-markup"
