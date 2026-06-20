@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "thesis-flowchart-with-ai",
+    emoji: "🗺️",
+    date: "۳۱ خرداد ۱۴۰۵",
+    category: "نقشه راه پژوهش",
+    title: "تهیه فلوچارت گام ها و مراحل پایان نامه با هوش مصنوعی",
+    desc: "آموزش گام به گام تهیه فلوچارت مراحل پایان نامه با هوش مصنوعی. با بهترین ابزارهای ترسیم نقشه راه تحقیق و فرضیه نویسی آشنا شوید.",
+  },
+  {
     slug: "thesis-topic-selection-and-base-article-ai",
     emoji: "💡",
     date: "۲۷ خرداد ۱۴۰۵",
