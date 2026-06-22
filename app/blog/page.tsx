@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "thesis-conceptual-model-with-ai",
+    emoji: "🧩",
+    date: "۲ تیر ۱۴۰۵",
+    category: "متدولوژی پژوهش",
+    title: "رسم مدل مفهومی پایان نامه با هوش مصنوعی + ابزارها",
+    desc: "آموزش کامل و گام‌به‌گام رسم مدل مفهومی پایان نامه با هوش مصنوعی. بهترین ابزارها و پرامپت‌ها را برای طراحی حرفه‌ای چارچوب نظری بشناسید.",
+  },
+  {
     slug: "thesis-flowchart-with-ai",
     emoji: "🗺️",
     date: "۳۱ خرداد ۱۴۰۵",
