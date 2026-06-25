@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "spss-analysis-with-ai",
+    emoji: "📈",
+    date: "۵ تیر ۱۴۰۵",
+    category: "تحلیل آماری",
+    title: "راهنمای جامع تحلیل و آموزش spss با هوش مصنوعی",
+    desc: "چگونه تحلیل و آموزش spss با هوش مصنوعی را برای پروپوزال و پایان‌نامه خود یاد بگیریم؟ راهنمای جامع آماری برای دانشجویان و اساتید.",
+  },
+  {
     slug: "thesis-conceptual-model-with-ai",
     emoji: "🧩",
     date: "۲ تیر ۱۴۰۵",
