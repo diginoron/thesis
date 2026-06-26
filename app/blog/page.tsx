@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "thesis-and-article-conclusion-with-ai",
+    emoji: "📝",
+    date: "۵ تیر ۱۴۰۵",
+    category: "نگارش پایان نامه",
+    title: "نتیجه‌ گیری مقاله و پایان نامه با هوش مصنوعی",
+    desc: "آموزش کامل و گام‌به‌گام نحوه نگارش نتیجه گیری مقاله و پایان نامه با هوش مصنوعی. تکنیک‌های تخصصی، پرامپت‌های حرفه‌ای و معرفی ابزارهای معتبر.",
+  },
+  {
     slug: "amos-analysis-with-ai",
     emoji: "📊",
     date: "۵ تیر ۱۴۰۵",
