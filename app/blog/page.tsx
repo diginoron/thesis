@@ -13,6 +13,14 @@ export const metadata: Metadata = generateMeta({
 
 const allPosts = [
   {
+    slug: "amos-analysis-with-ai",
+    emoji: "📊",
+    date: "۵ تیر ۱۴۰۵",
+    category: "تحلیل آماری پیشرفته",
+    title: "آموزش و تحلیل مدلیابی معادلات ساختاری با AMOS از طریق هوش مصنوعی",
+    desc: "راهنمای جامع و کاربردی آموزش و تحلیل مدلیابی معادلات ساختاری با AMOS از طریق هوش مصنوعی برای پایان‌نامه‌های دانشجویان ارشد و دکتری.",
+  },
+  {
     slug: "spss-analysis-with-ai",
     emoji: "📈",
     date: "۵ تیر ۱۴۰۵",
