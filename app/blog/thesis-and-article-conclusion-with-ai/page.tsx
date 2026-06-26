@@ -234,7 +234,7 @@ export default function ArticleAndThesisConclusionWithAIPage() {
 
         <div style={{ background: "radial-gradient(circle at center, #1e3c72, #2a5298)", padding: "3rem", borderRadius: "15px", margin: "4rem 0", textAlign: "center", color: "#fff", boxShadow: "0 10px 30px rgba(0,0,0,0.15)" }}>
           <h3 style={{ marginTop: 0, color: "#fff", fontSize: "1.7rem" }}>همین حالا کیفیت پایان‌نامه خود را دگرگون کنید</h3>
-          <p style={{ marginBottom: "2rem", fontSize: "1.15rem", opacity: "0.95", lineHeight: "1.8" }}>
+          <p style={{ marginBottom: "2rem", fontSize: "1.15rem", opacity: "0.95", lineHeight: "1.8", color: "#ffffff" }}>
             با استفاده از دستیار اختصاصی ما، نتیجه گیری پایان نامه خود را با بالاترین کیفیت علمی، بدون سرقت ادبی و در کمترین زمان ممکن تدوین کنید. تجربه‌ای متفاوت از پژوهش هوشمند در انتظار شماست.
           </p>
           <a href="http://thesis.diginoron.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ padding: "1.1rem 3.5rem", fontSize: "1.25rem", borderRadius: "30px", textDecoration: "none", color: "#1e3c72", background: "#f39c12", display: "inline-block", fontWeight: "bold", border: "none", transition: "all 0.3s", boxShadow: "0 4px 15px rgba(243, 156, 18, 0.4)" }}>
