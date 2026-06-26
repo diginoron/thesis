@@ -119,9 +119,9 @@ export default function AmosAnalysisWithAiPage() {
 
         <div style={{ textAlign: "center", margin: "3rem 0", padding: "2.5rem", backgroundColor: "#fdfbf7", borderRadius: "16px", border: "1px solid #e9dfc1", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
           <h4 className="mb-3 text-dark">آیا در اجرای مدل خود در ایموس با خطا مواجه شده‌اید؟</h4>
-          <p className="mb-4 text-muted">متخصصان ما آماده‌اند تا مدل ساختاری شما را با دقت بالا تحلیل و خطاهای آن را برطرف کنند.</p>
-          <a href="/contact" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "50px", fontWeight: "bold" }}>
-            مشاوره تخصصی تحلیل آماری با ایموس
+          <p className="mb-4 text-muted">اپلیکیشن دستیار هوشمند کاسپین تز با ویژگی‌های پیشرفته آماده است تا مدل ساختاری شما را تحلیل و خطاهای آن را برطرف کند.</p>
+          <a href="http://thesis.diginoron.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "50px", fontWeight: "bold" }}>
+            استفاده از اپلیکیشن دستیار هوشمند
           </a>
         </div>
 
@@ -146,33 +146,33 @@ export default function AmosAnalysisWithAiPage() {
           تجربه عملی و دست‌اول ما در بررسی مدل‌های مختلف نشان می‌دهد که همه ابزارها در درک پیچیدگی‌های تحلیل عاملی تاییدی (CFA) یکسان عمل نمی‌کنند. جدول زیر به صورت خلاصه عملکرد ابزارهای مختلف را مقایسه می‌کند:
         </p>
         <div className="table-responsive mb-5">
-          <table className="table table-bordered table-hover shadow-sm align-middle">
+          <table className="table table-bordered table-hover shadow-sm align-middle" style={{ borderCollapse: "collapse", width: "100%", border: "1px solid #dee2e6" }}>
             <thead className="table-light text-center">
               <tr>
-                <th>نام ابزار هوشمند</th>
-                <th>دقت در نگارش فرضیات SEM</th>
-                <th>توانایی تفسیر خروجی AMOS</th>
-                <th>مزیت اصلی در محیط آکادمیک</th>
+                <th style={{ border: "1px solid #dee2e6", padding: "12px", backgroundColor: "#f8f9fa" }}>نام ابزار هوشمند</th>
+                <th style={{ border: "1px solid #dee2e6", padding: "12px", backgroundColor: "#f8f9fa" }}>دقت در نگارش فرضیات SEM</th>
+                <th style={{ border: "1px solid #dee2e6", padding: "12px", backgroundColor: "#f8f9fa" }}>توانایی تفسیر خروجی AMOS</th>
+                <th style={{ border: "1px solid #dee2e6", padding: "12px", backgroundColor: "#f8f9fa" }}>مزیت اصلی در محیط آکادمیک</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><strong>ChatGPT-4o</strong></td>
-                <td className="text-center">بسیار بالا</td>
-                <td className="text-center">عالی</td>
-                <td>درک عمیق از شاخص‌های برازش و ارائه تفسیر متنی قدرتمند با لحن دانشگاهی</td>
+                <td style={{ border: "1px solid #dee2e6", padding: "12px" }}><strong>ChatGPT-4o</strong></td>
+                <td className="text-center" style={{ border: "1px solid #dee2e6", padding: "12px" }}>بسیار بالا</td>
+                <td className="text-center" style={{ border: "1px solid #dee2e6", padding: "12px" }}>عالی</td>
+                <td style={{ border: "1px solid #dee2e6", padding: "12px" }}>درک عمیق از شاخص‌های برازش و ارائه تفسیر متنی قدرتمند با لحن دانشگاهی</td>
               </tr>
               <tr>
-                <td><strong>Claude 3.5 Sonnet</strong></td>
-                <td className="text-center">بی‌نظیر</td>
-                <td className="text-center">بسیار عالی</td>
-                <td>لحن کاملاً آکادمیک، توانایی فوق‌العاده در تحلیل ساختاری پیچیده و پیشنهاد اصلاحات (Modification Indices)</td>
+                <td style={{ border: "1px solid #dee2e6", padding: "12px" }}><strong>Claude 3.5 Sonnet</strong></td>
+                <td className="text-center" style={{ border: "1px solid #dee2e6", padding: "12px" }}>بی‌نظیر</td>
+                <td className="text-center" style={{ border: "1px solid #dee2e6", padding: "12px" }}>بسیار عالی</td>
+                <td style={{ border: "1px solid #dee2e6", padding: "12px" }}>لحن کاملاً آکادمیک، توانایی فوق‌العاده در تحلیل ساختاری پیچیده و پیشنهاد اصلاحات (Modification Indices)</td>
               </tr>
               <tr>
-                <td><strong>Gemini 1.5 Pro</strong></td>
-                <td className="text-center">خوب</td>
-                <td className="text-center">خوب</td>
-                <td>سرعت بالا در پردازش جداول حجیم، کانتکست ویندوی بزرگ برای آپلود کامل فایل خروجی</td>
+                <td style={{ border: "1px solid #dee2e6", padding: "12px" }}><strong>Gemini 1.5 Pro</strong></td>
+                <td className="text-center" style={{ border: "1px solid #dee2e6", padding: "12px" }}>خوب</td>
+                <td className="text-center" style={{ border: "1px solid #dee2e6", padding: "12px" }}>خوب</td>
+                <td style={{ border: "1px solid #dee2e6", padding: "12px" }}>سرعت بالا در پردازش جداول حجیم، کانتکست ویندوی بزرگ برای آپلود کامل فایل خروجی</td>
               </tr>
             </tbody>
           </table>
@@ -198,10 +198,10 @@ export default function AmosAnalysisWithAiPage() {
         </p>
 
         <div style={{ textAlign: "center", margin: "3rem 0", padding: "2.5rem", backgroundColor: "#fdfbf7", borderRadius: "16px", border: "1px solid #e9dfc1", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
-          <h4 className="mb-3 text-dark">نیاز به آموزش گام‌به‌گام نرم‌افزارهای آماری دارید؟</h4>
-          <p className="mb-4 text-muted">ما در کاسپین تز دوره‌های تخصصی یا خدمات تحلیلی کامل با پشتیبانی تا روز دفاع را ارائه می‌دهیم.</p>
-          <a href="/services" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "50px", fontWeight: "bold" }}>
-            مشاهده خدمات تحلیل داده و پایان‌نامه
+          <h4 className="mb-3 text-dark">نیاز به تسریع در انجام تحلیل‌های آماری دارید؟</h4>
+          <p className="mb-4 text-muted">با استفاده از امکانات منحصربه‌فرد اپلیکیشن دستیار هوشمند کاسپین تز، فرایند نگارش و تحلیل پایان‌نامه خود را هوشمند کنید.</p>
+          <a href="http://thesis.diginoron.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "50px", fontWeight: "bold" }}>
+            ورود به دستیار هوشمند کاسپین تز
           </a>
         </div>
 
@@ -273,11 +273,11 @@ export default function AmosAnalysisWithAiPage() {
           ترکیب <strong>AMOS با هوش مصنوعی</strong> نه تنها سرعت کار شما را مضاعف می‌کند، بلکه خطاهای انسانی در تفسیر شاخص‌ها را به حداقل می‌رساند و اطمینان شما را در روز دفاع از رساله دکتری یا پایان‌نامه ارشد افزایش می‌دهد. به خاطر داشته باشید که این ابزارها جایگزین تفکر نقادانه شما نیستند، بلکه یک دستیار پژوهشی قدرتمند و خستگی‌ناپذیر در کنار شما هستند.
         </p>
 
-        <div style={{ textAlign: "center", margin: "4rem 0", padding: "3rem", backgroundColor: "#001a33", borderRadius: "16px", border: "1px solid #003366", color: "white", boxShadow: "0 10px 30px rgba(0,0,0,0.15)" }}>
-          <h3 className="mb-3 text-white">آماده‌اید تا تحلیل داده‌های خود را با اطمینان کامل انجام دهید؟</h3>
-          <p className="mb-4" style={{ color: "#b3d4ff", fontSize: "1.1rem" }}>دریافت مشاوره رایگان از اساتید و متخصصان گروه کاسپین تز برای بررسی مدل معادلات ساختاری شما.</p>
-          <a href="/contact" className="btn btn-warning btn-lg" style={{ padding: "1rem 3rem", fontSize: "1.25rem", borderRadius: "50px", fontWeight: "bold", color: "#000" }}>
-            تماس با متخصصین تحلیل آماری
+        <div style={{ textAlign: "center", margin: "4rem 0", padding: "3rem", backgroundColor: "#001a33", borderRadius: "16px", border: "1px solid #003366", color: "#ffffff", boxShadow: "0 10px 30px rgba(0,0,0,0.15)" }}>
+          <h3 className="mb-3" style={{ color: "#ffffff", fontWeight: "bold" }}>آماده‌اید تا تحلیل داده‌های خود را با اطمینان کامل انجام دهید؟</h3>
+          <p className="mb-4" style={{ color: "#e6f2ff", fontSize: "1.15rem", lineHeight: "1.8" }}>برای بررسی پیشرفته مدل معادلات ساختاری و تسریع در پژوهش خود، همین حالا اپلیکیشن دستیار هوشمند کاسپین تز را امتحان کنید.</p>
+          <a href="http://thesis.diginoron.com/" target="_blank" rel="noopener noreferrer" className="btn btn-warning btn-lg" style={{ padding: "1rem 3rem", fontSize: "1.25rem", borderRadius: "50px", fontWeight: "bold", color: "#000000", backgroundColor: "#ffc107", border: "none" }}>
+            شروع کار با اپلیکیشن کاسپین تز
           </a>
         </div>
 
